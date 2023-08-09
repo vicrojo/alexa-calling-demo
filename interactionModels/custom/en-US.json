@@ -1,0 +1,40 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "CallSupportIntent",
+          "samples": [
+            "agent",
+            "call customer",
+            "call support",
+            "call customer support"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "super taco"
+    }
+  }
+}
